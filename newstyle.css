@@ -1,0 +1,87 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+   font-family: 'Josefin Sans', sans-serif;
+}
+body{
+background-color: rgb(49, 49, 240);
+}
+
+.box{
+    width: 23rem;
+    height: 25rem;
+    background-color: rgb(223, 224, 224);
+    margin:8rem auto;
+    position: relative;
+    border-radius: 5px;
+    
+}
+.password_box{
+    width: 21rem;
+    height: 3.5rem;
+    background-color: rgb(8, 8, 8);
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+.length{
+    position: absolute;
+    top: 88px;
+    left: 16px;
+}
+.lengthrange{
+    width: 40px;
+    height: 2rem;
+    text-align: center;
+    position: absolute;
+    left: -13px;
+}
+
+.ucase{
+    position: absolute;
+    top: 9rem;
+    display: flex;
+    left: 1rem;
+}
+.lcase{
+    position: absolute;
+    top: 13rem;
+    display: flex;
+    left: 1rem;
+}
+.ncase{
+    position: absolute;
+    top: 16.5rem;
+    display: flex;
+    left: 1rem;
+}
+.scase{
+    position: absolute;
+    top: 19.5rem;
+    display: flex;
+    left: 1rem;
+}
+p{
+    font-size: 20px;
+}
+input{
+    top: 6px;
+   margin-left: 295px;
+    position: absolute;
+}
+button{
+    position: absolute;
+    bottom: 13px;
+    left: 69px;
+    width: 222px;
+    height: 38px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
